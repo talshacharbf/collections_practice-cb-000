@@ -50,3 +50,10 @@ def find_a(array)
   string[0]== "a"
   end
 end
+
+def sum_array(array)
+  array.each do |i|
+  i +=
+  end
+end
+
