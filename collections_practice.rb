@@ -19,7 +19,18 @@ end
 
 def swap_elements(array)
   array.sort do |a, b|
-    
+    if a == array[0]
+    0
+    elsif a == array[1]
+      if  a == b
+        1
+      elsif a < b
+        1
+      elsif a > b
+        1
+      end
+    else 
+    0    
   end
 end
 
