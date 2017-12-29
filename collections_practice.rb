@@ -52,8 +52,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.each do |i|
-  i +=
+  array.inject do |sum, n|
+  sum + n   
   end
 end
-
